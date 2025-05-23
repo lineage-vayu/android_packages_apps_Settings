@@ -114,6 +114,13 @@
         settings:controller="com.android.settings.network.AdaptiveConnectivityPreferenceController"/>
 
     <Preference
+        android:key="network_customisations"
+        android:title="@string/network_customisations_title"
+        android:summary="@string/network_customisations_summary"
+        android:order="35"
+        android:fragment="com.android.settings.NetworkCustomisationsExtras" />
+
+    <Preference
         android:key="cellular_security_network_internet"
         android:title="@string/cellular_security_title"
         android:summary="@string/cellular_security_summary"

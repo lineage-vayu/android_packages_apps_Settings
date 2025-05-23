@@ -232,5 +232,14 @@
             android:key="notification_lights"
             settings:requiresConfig="@*android:bool/config_intrusiveNotificationLed"
             settings:replacesKey="notification_pulse" />
+        
+        <com.arrow.support.preferences.SystemSettingSwitchPreference
+            android:key="config_enableOngoingProgressBarChip"
+            android:title="@string/ongoing_action_chip_title"
+            android:summary="@string/ongoing_action_chip_summary"
+            android:order="29"
+            android:defaultValue="false"
+            android:persistent="true"/>
+
     </PreferenceCategory>
 </PreferenceScreen>
