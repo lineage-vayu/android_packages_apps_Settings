@@ -98,6 +98,10 @@
      <string name="network_customisations_title">Network Customisations</string>
      <string name="network_customisations_summary">Tweak network behavior and features</string>
 
+     <!-- Ram usage -->
+     <string name="active_applications_title">Active Applications and Processes</string>
+     <string name="active_applications_summary">See active apps and processes</string>
+
     <!-- Lock screen pattern size -->
     <string name="lock_pattern_size_3" translatable="false">3 \u00d7 3</string>
     <string name="lock_pattern_size_4" translatable="false">4 \u00d7 4</string>

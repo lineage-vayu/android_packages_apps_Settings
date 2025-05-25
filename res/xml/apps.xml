@@ -62,8 +62,8 @@
 
         <Preference
             android:key="running_apps"
-            android:title="@string/runningservices_settings_title"
-            android:summary="@string/runningservices_settings_summary"
+            android:title="@string/active_applications_title"
+            android:summary="@string/active_applications_summary"
             android:fragment="com.android.settings.applications.RunningServices" />
 
     <Preference
