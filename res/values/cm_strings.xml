@@ -92,7 +92,7 @@
 
     <!-- Ongoing Progress Bar -->
     <string name="ongoing_action_chip_title">Enable Ongoing ProgressBar Chip</string>
-    <string name="ongoing_action_chip_summary">Show progressbar chip in statusbar which features ongoing action progress from a notification</string>
+    <string name="ongoing_action_chip_summary">Show progressbar chip next to the icon in statusbar</string>
 
      <!-- Network customisation -->
      <string name="network_customisations_title">Network Customisations</string>
