@@ -229,6 +229,11 @@
      <!-- Text size Summary -->
      <string name="accessibility_text_reading_options_summary">Change Display and Font size as per your liking</string>
 
+     <!-- Maintainer -->
+     <string name="maintainer_title">Maintainer</string>
+     <string name="maintainer_name">Grepfox</string>
+     <string name="maintainer_link" translatable="false">https://xdaforums.com/t/rom-vayu-bhima-unofficial-android-15-lineageos-22-2-for-poco-x3-pro.4739100/</string>
+
     <!-- Battery Info: Maximum Capacity -->
     <string name="battery_maximum_capacity">Maximum capacity</string>
     <string name="battery_maximum_capacity_summary">%1$d mAh (%2$d%%)</string>

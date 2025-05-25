@@ -21,7 +21,11 @@ import android.content.Context;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceFragmentCompat;
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -33,6 +37,18 @@ public class FirmwareVersionSettings extends DashboardFragment {
     @Override
     public @Nullable String getPreferenceScreenBindingKey(@NonNull Context context) {
         return FirmwareVersionScreen.KEY;
+    }
+
+    @Override
+    public boolean onPreferenceTreeClick(Preference preference) {
+        if ("maintainer_info".equals(preference.getKey())) {
+            String url = getContext().getString(R.string.maintainer_link);
+            Intent intent = new Intent(Intent.ACTION_VIEW);
+            intent.setData(Uri.parse(url));
+            startActivity(intent);
+            return true;
+        }
+        return super.onPreferenceTreeClick(preference);
     }
 
     @Override
