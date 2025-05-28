@@ -117,6 +117,7 @@
         android:key="network_customisations"
         android:title="@string/network_customisations_title"
         android:summary="@string/network_customisations_summary"
+        android:icon="@drawable/ic_network_custom"
         android:order="35"
         android:fragment="com.android.settings.NetworkCustomisationsExtras" />
 
