@@ -11,7 +11,7 @@
         android:fragment="com.android.settings.NetworkTrafficSettings"
         android:defaultValue="false" />
         
-        <com.arrow.support.preferences.SystemSettingSwitchPreference
+        <!-- <com.arrow.support.preferences.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
             android:title="@string/data_disabled_icon_title"
             android:summary="@string/data_disabled_icon_summary"
@@ -27,6 +27,6 @@
         android:key="qs_show_data_usage"
         android:title="@string/qs_footer_datausage_title"
         android:summary="@string/qs_footer_datausage_summary"
-        android:defaultValue="false" />
+        android:defaultValue="false" /> -->
 
 </PreferenceScreen>
