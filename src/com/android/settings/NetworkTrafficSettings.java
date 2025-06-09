@@ -35,8 +35,8 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
 
-import com.arrow.support.preferences.SystemSettingMainSwitchPreference;
-import com.arrow.support.preferences.SystemSettingSwitchPreference;
+import org.derpfest.support.preferences.SystemSettingMainSwitchPreference;
+import org.derpfest.support.preferences.SystemSettingSwitchPreference;
 
 public class NetworkTrafficSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
