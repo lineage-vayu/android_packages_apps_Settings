@@ -86,10 +86,6 @@
     <string name="ongoing_action_chip_title">Enable Ongoing ProgressBar Chip</string>
     <string name="ongoing_action_chip_summary">Show progressbar chip next to the icon in statusbar</string>
 
-     <!-- Network customisation -->
-     <string name="network_customisations_title">Network Customisations</string>
-     <string name="network_customisations_summary">Tweak network behavior and features</string>
-
      <!-- Ram usage -->
      <string name="active_applications_title">Active Applications and Processes</string>
      <string name="active_applications_summary">See active apps and processes</string>
